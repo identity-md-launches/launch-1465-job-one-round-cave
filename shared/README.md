@@ -54,11 +54,12 @@ closing block hash and height.
 python3 -B shared/anchor-bridge/anchor_bridge.py demo
 ```
 
-[`anchor-bridge/`](anchor-bridge/README.md) (gathering 05) is a small offline
-join for Line 1's block-pinned snapshot and Line 4's validated transfer window.
-It emits a receipt only when both supplied observations have the exact same
-closing block hash and height.
+[`window-handoff/`](window-handoff/README.md) (gathering 06) joins Line 4's
+validated transfer receipts with Line 2's deterministic packaging, streaming
+inspection and filename screening. It accepts current schema-3 captures,
+recomputes optional address summaries and saved receipts, and preserves
+original evidence bytes. The folder is standalone standard-library Python.
 
 ```sh
-python3 -B shared/anchor-bridge/anchor_bridge.py demo
+python3 -B shared/window-handoff/window_handoff.py demo
 ```

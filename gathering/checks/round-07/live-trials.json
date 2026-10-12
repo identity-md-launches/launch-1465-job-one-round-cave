@@ -1,0 +1,126 @@
+[
+  {
+    "endpoint": "https://ethereum-rpc.publicnode.com",
+    "network": "read-only, dedicated User-Agent, no proxy discovery or redirects",
+    "snapshot": {
+      "schema": "ethereum-hash-snapshot/1-summary",
+      "chain_id": "1",
+      "endpoint": "https://ethereum-rpc.publicnode.com",
+      "captured_at": "2026-10-12T19:54:46Z",
+      "block_number": "26178551",
+      "block_hash": "0x08c0398a63aa7559b6e93120e41f35e9d7761ef9fdea0fa666823e1a396e9f47",
+      "calls": [
+        {
+          "label": "ZTO-supply",
+          "to": "0xd782bdea4ef02a0bd391eb9089470c8080f0a68e",
+          "data": "0x18160ddd",
+          "result": "0x0000000000000000000000000000000000000000033b2e3c9fd0803ce8000000",
+          "token": "ZTO",
+          "decoded_uint256": "1000000000000000000000000000",
+          "meaning": "totalSupply base units"
+        }
+      ],
+      "evidence_limits": "Provider observations only: hash references and requireCanonical are not cryptographic proof, independent corroboration or verified finality. The provider must implement EIP-1898 honestly. No fallback to block numbers."
+    },
+    "native_receipt": {
+      "rejected": "validated read-only schema 2 mainnet capture required"
+    },
+    "shared_handoff": {
+      "schema": "window-handoff/v1",
+      "verified": true,
+      "archive_sha256": "10fe68ebf50f08846c1025a31fc5f587af26bfa9dfd78f21a9c0e9377fbb8917",
+      "archive_bytes": 2366,
+      "trusted_digest_matched": false,
+      "capture_bytes_sha256": "e90cbafde26d0cf0586953162437af6cd94f1312dee09fcb0403726f4239dadd",
+      "capture_schema_version": 3,
+      "portable_filenames": true,
+      "receipt_recomputed": true,
+      "address_summary_recomputed": false,
+      "window_receipt": {
+        "schema_version": 1,
+        "kind": "erc20-transfer-window-receipt",
+        "read_only": true,
+        "token": "ZTO",
+        "token_address": "0xd782bdea4ef02a0bd391eb9089470c8080f0a68e",
+        "from_block": 26178550,
+        "to_block": 26178551,
+        "from_block_anchor": {
+          "number": 26178550,
+          "hash": "0x06dba8f858d1da4f3dcb9a6101a4228d71e6cbf42d7fce4a56f9aa7b54f7b673"
+        },
+        "to_block_anchor": {
+          "number": 26178551,
+          "hash": "0x08c0398a63aa7559b6e93120e41f35e9d7761ef9fdea0fa666823e1a396e9f47"
+        },
+        "transfer_count": 0,
+        "window_sha256": "b9337fd507b2dea2c51340e86665454f4f5e33028eb43d6ea4385fb97994dee5",
+        "capture_sha256": "1d2df361c2050d0aa4bfa568a96c08b6f5d4d44972a90c265018cd72195e490d",
+        "limitations": "This receipt fingerprints one provider capture after local validation; it does not prove completeness, finality, provider honesty, or a balance."
+      },
+      "limitations": "Integrity and local evidence validation only; no completeness, finality, provider honesty, balance, sender identity or execution safety established."
+    },
+    "success": true
+  },
+  {
+    "endpoint": "https://eth.drpc.org",
+    "network": "read-only, dedicated User-Agent, no proxy discovery or redirects",
+    "snapshot": {
+      "schema": "ethereum-hash-snapshot/1-summary",
+      "chain_id": "1",
+      "endpoint": "https://eth.drpc.org",
+      "captured_at": "2026-10-12T19:54:47Z",
+      "block_number": "26178551",
+      "block_hash": "0x08c0398a63aa7559b6e93120e41f35e9d7761ef9fdea0fa666823e1a396e9f47",
+      "calls": [
+        {
+          "label": "ZTO-supply",
+          "to": "0xd782bdea4ef02a0bd391eb9089470c8080f0a68e",
+          "data": "0x18160ddd",
+          "result": "0x0000000000000000000000000000000000000000033b2e3c9fd0803ce8000000",
+          "token": "ZTO",
+          "decoded_uint256": "1000000000000000000000000000",
+          "meaning": "totalSupply base units"
+        }
+      ],
+      "evidence_limits": "Provider observations only: hash references and requireCanonical are not cryptographic proof, independent corroboration or verified finality. The provider must implement EIP-1898 honestly. No fallback to block numbers."
+    },
+    "native_receipt": {
+      "rejected": "validated read-only schema 2 mainnet capture required"
+    },
+    "shared_handoff": {
+      "schema": "window-handoff/v1",
+      "verified": true,
+      "archive_sha256": "3b3e9eb1f9574ed49a0aaf2f936efde24f312592a51dd1cc087a7b5049eaa8a7",
+      "archive_bytes": 2351,
+      "trusted_digest_matched": false,
+      "capture_bytes_sha256": "6ea3e3149615d4d5533d789650cb07f1bdef94d86420978508fe3415e84b3a75",
+      "capture_schema_version": 3,
+      "portable_filenames": true,
+      "receipt_recomputed": true,
+      "address_summary_recomputed": false,
+      "window_receipt": {
+        "schema_version": 1,
+        "kind": "erc20-transfer-window-receipt",
+        "read_only": true,
+        "token": "ZTO",
+        "token_address": "0xd782bdea4ef02a0bd391eb9089470c8080f0a68e",
+        "from_block": 26178550,
+        "to_block": 26178551,
+        "from_block_anchor": {
+          "number": 26178550,
+          "hash": "0x06dba8f858d1da4f3dcb9a6101a4228d71e6cbf42d7fce4a56f9aa7b54f7b673"
+        },
+        "to_block_anchor": {
+          "number": 26178551,
+          "hash": "0x08c0398a63aa7559b6e93120e41f35e9d7761ef9fdea0fa666823e1a396e9f47"
+        },
+        "transfer_count": 0,
+        "window_sha256": "b9337fd507b2dea2c51340e86665454f4f5e33028eb43d6ea4385fb97994dee5",
+        "capture_sha256": "1f435028901ad7e7f3980b707c81277734b931ae4e5df4187f24ed4287d21e48",
+        "limitations": "This receipt fingerprints one provider capture after local validation; it does not prove completeness, finality, provider honesty, or a balance."
+      },
+      "limitations": "Integrity and local evidence validation only; no completeness, finality, provider honesty, balance, sender identity or execution safety established."
+    },
+    "success": true
+  }
+]

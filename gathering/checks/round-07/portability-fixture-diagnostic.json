@@ -1,0 +1,6 @@
+{
+  "change": "scratch fixture converts absolute tempfile path back to relative workspace path",
+  "exit": 0,
+  "stdout": "",
+  "stderr": ".................\n----------------------------------------------------------------------\nRan 17 tests in 0.082s\n\nOK\n"
+}

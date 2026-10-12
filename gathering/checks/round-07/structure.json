@@ -1,0 +1,10 @@
+{
+  "command": [
+    "python3",
+    "-B",
+    "gathering/check_round7_deliverable.py"
+  ],
+  "exit": 0,
+  "stdout": "{\n  \"passed\": true,\n  \"line_files_unchanged\": 115,\n  \"goals\": 4,\n  \"walls\": 5,\n  \"records\": 125,\n  \"painted\": 30,\n  \"placeholders\": 95,\n  \"png\": \"1254x1254 8-bit RGB\",\n  \"jpeg\": \"512x512 baseline color\",\n  \"wall_sha256\": \"c732d3154abd373fa3085aceba7a10436b56f47fbba04b2beb2fa82883882a96\",\n  \"visual_review\": \"Manual review in README.md; not certified by this checker.\"\n}\n",
+  "stderr": ""
+}

@@ -1,0 +1,27 @@
+{
+  "source_record": 5,
+  "record_number": 6,
+  "source_sha256": "597a2c6ad549207042251f69b5a1ad30ec4e66fda24738311c758f46476a902d",
+  "wall_sha256": "c732d3154abd373fa3085aceba7a10436b56f47fbba04b2beb2fa82883882a96",
+  "png_dimensions": [
+    1254,
+    1254
+  ],
+  "png_format": "8-bit RGB PNG",
+  "png_bytes": 3837152,
+  "jpeg_dimensions": [
+    512,
+    512
+  ],
+  "jpeg_format": "baseline JPEG",
+  "jpeg_bytes": 67921,
+  "addition_rectangle": [
+    270,
+    950,
+    175,
+    165
+  ],
+  "changed_pixels": 9634,
+  "changed_pixels_outside_rectangle": 0,
+  "method": "Installed image tool generated a pigment insert; white removed in memory and pigment confined to vacant rock."
+}

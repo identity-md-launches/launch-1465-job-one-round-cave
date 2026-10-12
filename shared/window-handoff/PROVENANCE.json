@@ -1,0 +1,48 @@
+[
+  {
+    "source": "line-2/tools/handoff/handoff.py",
+    "copy": "vendor/handoff/handoff.py",
+    "source_sha256": "0b3878b76c13a18951601aef2ec48daf8c56fbb195fea953be797a7f1d8df97d",
+    "copy_sha256": "0b3878b76c13a18951601aef2ec48daf8c56fbb195fea953be797a7f1d8df97d",
+    "changes": []
+  },
+  {
+    "source": "line-2/tools/handoff-inspect/inspect_handoff.py",
+    "copy": "vendor/handoff-inspect/inspect_handoff.py",
+    "source_sha256": "62cc8e4b31c231eb394bd5f3053c2db29c05fc4fa62d3aeafe76027a52b8103a",
+    "copy_sha256": "62cc8e4b31c231eb394bd5f3053c2db29c05fc4fa62d3aeafe76027a52b8103a",
+    "changes": []
+  },
+  {
+    "source": "line-2/tools/handoff-portability/portability.py",
+    "copy": "vendor/handoff-portability/portability.py",
+    "source_sha256": "f564df366ec6f891ec2f599337b306e353071bd6a7667cc35a6a2bd9c6059323",
+    "copy_sha256": "0b3860958ace46507dbc559d6f4c3a1b0d107f41ad3745910f0e8774cd2bde06",
+    "changes": [
+      "fixed standalone dependency path; filename analysis unchanged"
+    ]
+  },
+  {
+    "source": "line-4/tools/erc20-transfer-window/transfer_window.py",
+    "copy": "vendor/erc20-transfer-window/transfer_window.py",
+    "source_sha256": "2b6ee2c15c52b40536150677bd1a53941dedaa84227ccb13620de2238b4c0bc3",
+    "copy_sha256": "2b6ee2c15c52b40536150677bd1a53941dedaa84227ccb13620de2238b4c0bc3",
+    "changes": []
+  },
+  {
+    "source": "line-4/tools/transfer-crosscheck/crosscheck.py",
+    "copy": "vendor/transfer-crosscheck/crosscheck.py",
+    "source_sha256": "fc8004d409356cde4ba1d47117f0b58a43d2ed6555f129be60267176869c6a49",
+    "copy_sha256": "b13473866fe714d0b57185741b424a45a16da2f43150b85b9248dada97615103",
+    "changes": [
+      "accept schema 3 as well as schema 2; all inherited evidence checks retained"
+    ]
+  },
+  {
+    "source": "line-4/tools/transfer-window-receipt/receipt.py",
+    "copy": "vendor/transfer-window-receipt/receipt.py",
+    "source_sha256": "0ce5a4b1c0724c127dba4498f1607a98b5511961b921e9e8c47eb3daeb804006",
+    "copy_sha256": "0ce5a4b1c0724c127dba4498f1607a98b5511961b921e9e8c47eb3daeb804006",
+    "changes": []
+  }
+]

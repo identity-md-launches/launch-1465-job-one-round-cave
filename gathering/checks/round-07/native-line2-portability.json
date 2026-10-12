@@ -1,0 +1,13 @@
+{
+  "command": [
+    "python3",
+    "-B",
+    "line-2/tools/handoff-portability/portability.py",
+    "check",
+    "gathering/checks/round-07/live-window-1.zip"
+  ],
+  "stdin": null,
+  "exit": 0,
+  "stdout": "{\n  \"archive_sha256\": \"10fe68ebf50f08846c1025a31fc5f587af26bfa9dfd78f21a9c0e9377fbb8917\",\n  \"archive_verified\": true,\n  \"file_count\": 2,\n  \"format\": \"handoff-portability-v1\",\n  \"issue_count\": 0,\n  \"issues\": [],\n  \"note\": \"Conservative filename screen, not an OS extraction test, software safety review or sender authentication. Relative paths over 240 UTF-16 units are flagged without knowing the eventual destination prefix.\",\n  \"portable\": true,\n  \"profile\": \"conservative-windows-macos-v1\",\n  \"trusted_digest_matched\": false\n}\n",
+  "stderr": ""
+}

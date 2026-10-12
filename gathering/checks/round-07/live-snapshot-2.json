@@ -1,0 +1,44 @@
+{
+  "schema": "ethereum-hash-snapshot/1",
+  "endpoint": "https://eth.drpc.org",
+  "captured_at": "2026-10-12T19:54:47Z",
+  "requested_block": "finalized",
+  "chain_response": {
+    "id": 1,
+    "jsonrpc": "2.0",
+    "result": "0x1"
+  },
+  "anchor": {
+    "number": "0x18f73f7",
+    "hash": "0x08c0398a63aa7559b6e93120e41f35e9d7761ef9fdea0fa666823e1a396e9f47",
+    "parentHash": "0x06dba8f858d1da4f3dcb9a6101a4228d71e6cbf42d7fce4a56f9aa7b54f7b673",
+    "timestamp": "0x6acd37d7"
+  },
+  "anchor_after": {
+    "number": "0x18f73f7",
+    "hash": "0x08c0398a63aa7559b6e93120e41f35e9d7761ef9fdea0fa666823e1a396e9f47",
+    "parentHash": "0x06dba8f858d1da4f3dcb9a6101a4228d71e6cbf42d7fce4a56f9aa7b54f7b673",
+    "timestamp": "0x6acd37d7"
+  },
+  "observations": [
+    {
+      "label": "ZTO-supply",
+      "method": "eth_call",
+      "params": [
+        {
+          "to": "0xd782bdea4ef02a0bd391eb9089470c8080f0a68e",
+          "data": "0x18160ddd"
+        },
+        {
+          "blockHash": "0x08c0398a63aa7559b6e93120e41f35e9d7761ef9fdea0fa666823e1a396e9f47",
+          "requireCanonical": true
+        }
+      ],
+      "response": {
+        "id": 1,
+        "jsonrpc": "2.0",
+        "result": "0x0000000000000000000000000000000000000000033b2e3c9fd0803ce8000000"
+      }
+    }
+  ]
+}

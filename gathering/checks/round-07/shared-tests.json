@@ -1,0 +1,10 @@
+{
+  "command": [
+    "python3",
+    "-B",
+    "shared/window-handoff/test_window_handoff.py"
+  ],
+  "exit": 0,
+  "stdout": "",
+  "stderr": "test_address_summary_recomputed_and_boolean_count_refused (__main__.Tests.test_address_summary_recomputed_and_boolean_count_refused) ... ok\ntest_cli_roundtrip_overwrite_and_no_partial_output (__main__.Tests.test_cli_roundtrip_overwrite_and_no_partial_output) ... ok\ntest_independent_digest_match_and_mismatch (__main__.Tests.test_independent_digest_match_and_mismatch) ... ok\ntest_invalid_schema_wrong_chain_and_false_summary_rejected (__main__.Tests.test_invalid_schema_wrong_chain_and_false_summary_rejected) ... ok\ntest_native_schema3_capture_with_address_summary (__main__.Tests.test_native_schema3_capture_with_address_summary) ... ok\ntest_payload_tampering_with_repaired_crc_rejected (__main__.Tests.test_payload_tampering_with_repaired_crc_rejected) ... ok\ntest_real_retained_capture_roundtrip_exact_bytes_and_determinism (__main__.Tests.test_real_retained_capture_roundtrip_exact_bytes_and_determinism) ... ok\ntest_rehashed_false_receipt_rejected_after_archive_integrity (__main__.Tests.test_rehashed_false_receipt_rejected_after_archive_integrity) ... ok\ntest_removed_log_rejected_even_with_original_receipt (__main__.Tests.test_removed_log_rejected_even_with_original_receipt) ... ok\ntest_semantic_digest_ignores_duplicate_delivery_full_capture_changes (__main__.Tests.test_semantic_digest_ignores_duplicate_delivery_full_capture_changes) ... ok\ntest_strict_json_duplicate_nonfinite_and_size_limits (__main__.Tests.test_strict_json_duplicate_nonfinite_and_size_limits) ... ok\ntest_unknown_payload_and_path_hazards_refused (__main__.Tests.test_unknown_payload_and_path_hazards_refused) ... ok\n\n----------------------------------------------------------------------\nRan 12 tests in 0.057s\n\nOK\n"
+}

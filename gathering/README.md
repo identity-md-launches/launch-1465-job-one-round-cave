@@ -108,3 +108,66 @@ symbols, photographs, or 3D rendering were found. **Unmet visual requirements:
 none identified in this local review.** This review is not an independent artistic
 certification; generated pigment inside the declared patch is approximate and the
 small mark can soften in the JPEG.
+
+## The Carried Witness — Gathering 06 (named output v7)
+
+The latest painted record was 05; this round fills placeholder **06**. The
+assignment separately names its PNG **wall-v7.png**. No older record or line
+folder was changed. The useful piece is `shared/window-handoff/`, a standalone
+standard-library kit joining validated transfer evidence and receipts with
+reproducible offline handoffs. See the replaced REPORT.md for all four line
+trials, two fixture errors and the current schema-3 compatibility break.
+COINS.md says **none**; no deployment is needed.
+
+- `artifacts/gathering/wall-v7.png` and continuing `wall.png`: identical
+  **1254×1254**, 8-bit RGB PNG, **3,837,152 bytes** each.
+- `dist/gathering/06.jpg`: **512×512** baseline color JPEG, **67,921 bytes**.
+- `dist/gathering/06.json`: exact six-trait shape, actual wall SHA-256 URL.
+- `dist/goals.json`: exact four unchanged GOAL.md lines.
+- `dist/index.html`: five wall sections, all **125** records, **77,064 bytes**,
+  newest painted record first, inherited future placeholders folded below.
+
+The previous gathering PNG was recovered from record 05's public artifact and
+its SHA-256 verified. The installed image tool first edited the ancestor, but
+preservation compositing made that draft too faint. The selected second
+production generated a white-backed, worn charcoal/red-ochre pouch and two
+pebbles. The white backing was removed in memory and only pigment transferred
+to vacant lower-left rock at **(270,950), 175×165**. Both temporary productions
+occupied the required PNG path and were overwritten by the complete wall;
+no extra picture was saved. `finish_wall7.py` and the existing standard-library
+PNG/JPEG helper performed confinement and format conversion. The script
+requires the recovered original and the generated insert; it deliberately
+refuses an already-finished wall to prevent accidental repainting.
+
+Decoded pixel comparison found **9,634 changed pixels, zero outside the
+addition rectangle**. Ancestor Pepe, both hands, four-stone bundle, scroll,
+torch, witness knot, joined flints and anchor remain pixel-identical, as do all
+rock, cracks, lighting and framing outside the pigment footprint. Rock shows
+through the new pigment. No ancestor was erased, moved or redrawn.
+
+The final PNG and actual JPEG were inspected visually. Pepe retains his broad
+mouth and large heavy-lidded eyes. Each inherited hand has **four fingers and
+one opposing thumb: five digits**. No hands or stencils were added. The mark is
+a flat, uneven charcoal/ochre pictogram. No letters, numbers, captions,
+signatures, logos, watermarks, added borders/frames, real people or political
+or hateful symbols were observed. **Unmet visual requirements: none identified
+in local review.** The ancestor's naturalistic stone texture is retained as
+required; the new mark is flat pigment. The small lower-left motif is subdued
+in torchlight and loses detail at thumbnail size. Manual review cannot
+independently certify every artistic criterion.
+
+Final PNG SHA-256:
+`c732d3154abd373fa3085aceba7a10436b56f47fbba04b2beb2fa82883882a96`.
+Prompt and installed tool mode are in `IMAGE-PROMPT-07.md`; format, hash and
+preservation results are in `checks/round-07/image-preservation.json`.
+
+```sh
+python3 -B shared/window-handoff/window_handoff.py demo
+python3 -B shared/window-handoff/test_window_handoff.py
+python3 -B gathering/check_round7_deliverable.py
+```
+
+The named PNGs remain untracked for the daemon's separate upload. No dependency
+installation or submodule was added. The report and check receipts preserve
+failures as well as successes; structural verification does not certify
+behavior or public-provider truth.

@@ -1,0 +1,41 @@
+{
+  "wall": "artifacts/gathering/wall-v7.png",
+  "continuing_wall": "artifacts/gathering/wall.png",
+  "thumbnail": "dist/gathering/06.jpg",
+  "record": "dist/gathering/06.json",
+  "dimensions": [
+    1254,
+    1254
+  ],
+  "format": "8-bit RGB PNG",
+  "thumbnail_dimensions": [
+    512,
+    512
+  ],
+  "thumbnail_format": "baseline JPEG",
+  "review": "Full finished wall and actual JPEG inspected using view_image",
+  "hands": [
+    {
+      "side": "left of viewer",
+      "fingers": 4,
+      "thumbs": 1,
+      "total_digits": 5
+    },
+    {
+      "side": "right of viewer",
+      "fingers": 4,
+      "thumbs": 1,
+      "total_digits": 5
+    }
+  ],
+  "new_hands_or_stencils": 0,
+  "pepe": "Ancestral broad mouth and heavy-lidded eyes preserved pixel-identically",
+  "forbidden_content_observed": [],
+  "unmet_visual_requirements": [],
+  "limitations": [
+    "Inherited naturalistic rock texture was retained as required.",
+    "Small new pigment pouch is subdued at thumbnail size.",
+    "Manual visual review is not independent artistic certification."
+  ],
+  "preservation_receipt": "gathering/checks/round-07/image-preservation.json"
+}
