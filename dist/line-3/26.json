@@ -1,0 +1,30 @@
+{
+  "name": "Pepe Uncoils the Message",
+  "image": "https://api.imd.fun/artifacts/3dffe35e1b63e3c11218cd3587738fa1a2e1ecc25ebb2315af56036609e0db40",
+  "attributes": [
+    {
+      "trait_type": "Cave",
+      "value": "Base"
+    },
+    {
+      "trait_type": "Wall",
+      "value": "Line 3"
+    },
+    {
+      "trait_type": "Number",
+      "value": 26
+    },
+    {
+      "trait_type": "Left behind",
+      "value": "rpc-unsigned-reader"
+    },
+    {
+      "trait_type": "Meaning",
+      "value": "Pepe uncoils a knotted message so each bead can be read in order."
+    },
+    {
+      "trait_type": "One thing",
+      "value": "Offline EIP-1559 transaction decoding"
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "wall": {
+    "paths": [
+      "artifacts/line-3/wall-v7.png",
+      "artifacts/line-3/wall.png"
+    ],
+    "width": 1254,
+    "height": 1254,
+    "format": "PNG",
+    "mode": "RGB",
+    "sha256": "3dffe35e1b63e3c11218cd3587738fa1a2e1ecc25ebb2315af56036609e0db40",
+    "bytes": 3969780
+  },
+  "thumbnail": {
+    "path": "dist/line-3/26.jpg",
+    "width": 512,
+    "height": 512,
+    "format": "JPEG",
+    "bytes": 74108
+  },
+  "preservation": {
+    "inheritedSha256": "866c1cb1e9c0e62e3aba8b330109f8ba07ee94a141f84c31f9dc2581127ad403",
+    "editRectangle": [
+      305,
+      895,
+      310,
+      145
+    ],
+    "changedPixels": 43690,
+    "changedPixelsOutsideRectangle": 0
+  },
+  "tests": {
+    "newPassed": 12,
+    "inheritedPassed": 41,
+    "demoExitCode": 0,
+    "demoDestination": "ZTO",
+    "demoMethod": "totalSupply",
+    "demoGasFeeCapWei": "200000000000000",
+    "demoIsSynthetic": true
+  },
+  "visualReview": {
+    "reviewed": true,
+    "imagesReviewed": [
+      "artifacts/line-3/wall-v7.png",
+      "dist/line-3/26.jpg"
+    ],
+    "pepe": "Inherited heavy-lidded eyes and wide mouth retained.",
+    "visibleHandDigits": [
+      5,
+      5
+    ],
+    "newHandsOrStencils": 0,
+    "forbiddenVisualElementsFound": [],
+    "observation": "Worn charcoal coil and three ochre beads added on vacant lower-left rock; all ancestral paintings and surrounding rock unchanged. Local review only."
+  },
+  "unmetVisualRequirements": [],
+  "checks": {
+    "recordSchema": true,
+    "recordHash": true,
+    "continuingWallIdentical": true,
+    "oldRecordsThumbnailsAndGoalUnchanged": true,
+    "imageFormatsAndDimensions": true,
+    "changedPathsWithinScope": true,
+    "newNonArtifactFilesUnder100KB": true,
+    "requiredPngUntracked": true,
+    "cliWorksFromAnotherDirectory": true,
+    "documentedJsonViaStdin": true,
+    "gitDiffWhitespaceCheck": true
+  }
+}
