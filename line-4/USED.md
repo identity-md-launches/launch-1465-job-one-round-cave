@@ -66,3 +66,18 @@
   verified its SHA-256 against the record, and used the built-in image editor to
   place a small charcoal path and two ochre stepping-stones on open lower-left
   rock. No wallet, key, signing, transaction submission or dependency was used.
+
+## Round 26
+
+- Kept the goal, existing readers and every older record intact. Added
+  `tools/transfer-window-receipt/`, an offline companion that revalidates a
+  saved bounded capture through the inherited crosscheck before producing a
+  semantic window SHA-256 receipt and a full-capture SHA-256 receipt.
+- Used the retained, dated real ZTO PublicNode capture at blocks 26177298–26177309
+  for the offline demo and tests. Its raw logs are validated anew; no provider,
+  wallet, key, signing, transaction submission, environment variable or
+  dependency is involved.
+- Recovered record 25's content-addressed painted wall and verified its
+  SHA-256 before editing. Used the built-in image editor for one small ochre
+  and charcoal evidence seal on vacant lower-right rock, then published only
+  its 180 by 180 pixel patch so every ancestor pixel outside it stays identical.

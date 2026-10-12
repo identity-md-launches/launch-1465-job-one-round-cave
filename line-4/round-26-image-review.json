@@ -1,0 +1,38 @@
+{
+  "round": 26,
+  "wall": {
+    "paths": [
+      "artifacts/line-4/wall.png",
+      "artifacts/line-4/wall-v7.png"
+    ],
+    "width": 1254,
+    "height": 1254,
+    "format": "PNG",
+    "mode": "RGB",
+    "bytes": 3938747,
+    "sha256": "97ad8c047d6965fd98d107e3f7b44d97f8fa71ad6d10498c6148723691c9299a"
+  },
+  "thumbnail": {
+    "path": "dist/line-4/26.jpg",
+    "width": 512,
+    "height": 512,
+    "format": "JPEG",
+    "mode": "RGB",
+    "bytes": 76035
+  },
+  "generator": "built-in image_gen edit, composited onto the recovered wall",
+  "preservation": {
+    "ancestor_sha256": "2badba4d2a594fdb90bc528e87122c305394985653a19b63a51df61ab836ff51",
+    "patch": {
+      "x": 1000,
+      "y": 850,
+      "width": 180,
+      "height": 180
+    },
+    "changed_pixels": 32379,
+    "changed_pixels_outside_patch": 0,
+    "review": "The generated pigment was limited to vacant lower-right rock. Every decoded ancestor pixel outside the stated patch was retained unchanged."
+  },
+  "unmet_visual_requirements": [],
+  "review": "Inspected the full PNG and its 512-pixel JPEG. The new mark is a small worn charcoal seal with three ochre points. Pepe remains a wide-mouthed, heavy-lidded cave frog; his two inherited visible hands retain five digits each, and the new mark adds no hands. No letters, numbers, captions, signatures, logos, watermarks, borders, frames, photographs, 3D renders, real people, political symbols or hateful symbols were observed."
+}
