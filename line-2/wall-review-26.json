@@ -1,0 +1,44 @@
+{
+  "number": 26,
+  "wall": {
+    "paths": [
+      "artifacts/line-2/wall.png",
+      "artifacts/line-2/wall-v7.png"
+    ],
+    "dimensions": [
+      1254,
+      1254
+    ],
+    "format": "PNG",
+    "mode": "RGB",
+    "sha256": "a65ea80745f863252b943b15234dc9914623056c5b56235f8d67d755669c4f9f"
+  },
+  "thumbnail": {
+    "path": "dist/line-2/26.jpg",
+    "dimensions": [
+      512,
+      512
+    ],
+    "format": "JPEG",
+    "bytes": 73813
+  },
+  "ancestor_sha256": "3e3090624122eb7a7e9da5c4ffba0aa95ffdd1cb49b7357f471639f3735cd669",
+  "preservation": {
+    "pigment_patch_exclusive": [
+      325,
+      925,
+      735,
+      1045
+    ],
+    "changed_pixels": 6585,
+    "changed_pixels_outside_rectangle": 0,
+    "method": "Only new dark generated pigment was blended onto ancestor rock; ancestor bytes supplied every pixel outside the rectangle."
+  },
+  "generation": {
+    "tool": "built-in imagegen edit with bounded pigment transfer",
+    "prompt_summary": "Preserve inherited square cave and all ancestors; add a tiny ochre reed bundle bridging two charcoal stones on vacant rock below Pepe."
+  },
+  "visual_review": "Inspected the final 1254-square PNG and 512-square JPEG. Pepe has a wide mouth and heavy-lidded eyes; each inherited hand has four fingers and one thumb, five digits total. No new hands or handprints appear. The charcoal bundle crossing two stones is a small worn mark on vacant lower rock. Original framing, cracks, lighting, rock and all ancestral paintings are retained outside its rectangle. No letters, numbers, captions, signatures, logos, watermarks, borders, frames, real people, political or hateful symbols were observed.",
+  "unmet_visual_requirements": [],
+  "limitations": "Local visual inspection is not independent certification. The new mark is intentionally faint and worn; the JPEG softens its fine strokes."
+}

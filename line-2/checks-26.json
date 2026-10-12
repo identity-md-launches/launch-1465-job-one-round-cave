@@ -1,0 +1,54 @@
+{
+  "checks": [
+    {
+      "command": [
+        "python3",
+        "-B",
+        "line-2/tools/handoff-portability/portability.py",
+        "demo"
+      ],
+      "exit_code": 0,
+      "stdout": "{\n  \"archive_sha256\": \"aaa03a258268263186f610e17ad8ede6851c8597b70a7ec29ae6b283f72f60bb\",\n  \"archive_verified\": true,\n  \"demo\": \"real inherited handoff screened without extraction\",\n  \"file_count\": 2,\n  \"format\": \"handoff-portability-v1\",\n  \"issue_count\": 0,\n  \"issues\": [],\n  \"note\": \"Conservative filename screen, not an OS extraction test, software safety review or sender authentication. Relative paths over 240 UTF-16 units are flagged without knowing the eventual destination prefix.\",\n  \"portable\": true,\n  \"profile\": \"conservative-windows-macos-v1\",\n  \"trusted_digest_matched\": false\n}\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "python3",
+        "-B",
+        "line-2/tools/handoff-portability/test_portability.py"
+      ],
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": ".................\n----------------------------------------------------------------------\nRan 17 tests in 0.058s\n\nOK\n"
+    },
+    {
+      "command": [
+        "python3",
+        "-B",
+        "line-2/tools/handoff-inspect/test_inspect.py"
+      ],
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": "...................\n----------------------------------------------------------------------\nRan 19 tests in 0.042s\n\nOK\n"
+    }
+  ],
+  "deliverable": {
+    "record_shape": "passed",
+    "record_number": 26,
+    "goal_unchanged": true,
+    "older_records_unchanged": 25,
+    "wall_dimensions": [
+      1254,
+      1254
+    ],
+    "wall_format": "RGB PNG",
+    "thumbnail_dimensions": [
+      512,
+      512
+    ],
+    "thumbnail_format": "JPEG",
+    "hash_matches_record": true,
+    "named_outputs_untracked": true,
+    "modified_paths_in_scope": true
+  }
+}

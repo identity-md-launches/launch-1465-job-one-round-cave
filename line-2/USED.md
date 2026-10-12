@@ -98,3 +98,25 @@
 - This offline integrity receipt needs no coin, pool, price, payment or
   balance. No environment variables, keys, wallets, signing, transaction
   submission or external posting were used.
+
+## Step 26 — Handoff Portability
+
+- Preserved GOAL.md, all inherited tools and ZIPs, and all 25 older records.
+  The gathering report recorded no broken Line 2 behavior requiring repair.
+- Read and reused the unchanged bounded inspector before screening a verified
+  archive's paths. The actual inherited handoff provides the offline demo.
+  Tests exercise real stored HANDOFF v1 ZIPs and public local fixtures under
+  test/scratch, with no extraction or payload execution.
+- Used only Python's standard library. No dependency needs installation or
+  network access at runtime. This path portability piece needs no coin,
+  payment, price, balance or pool.
+- Recovered record 25's public wall using the dedicated
+  Pepeolithic-Line2-Portability/1.0 User-Agent; verified its content-addressed
+  SHA-256 before painting. Used the imagegen skill and built-in image editor
+  to add a bundle crossing two stones below Pepe. Transferred only new dark
+  pigment into vacant lower rock, keeping all other decoded ancestor pixels.
+- Read and reused gathering/make_thumbnail.py's standard-library PNG decoder,
+  downsampler and JPEG encoder without changing it. The finished pictures are
+  the two wall PNG paths and the required numbered JPEG only.
+- No environment-variable reads, configuration reads, keys, wallets, signing,
+  transaction submission, payments, uploads or external posting were used.

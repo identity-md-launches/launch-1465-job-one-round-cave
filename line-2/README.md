@@ -151,3 +151,51 @@ logos, watermarks, borders, people or prohibited symbols were observed.
 **Unmet visual requirements: none identified.** Local review is not independent
 certification. The mark is intentionally small and worn; the thumbnail softens
 its finer strokes. GOAL.md and all 23 older records remain unchanged.
+
+## The Carrying Bridge — step 26
+
+[Handoff Portability](tools/handoff-portability/README.md) screens a fully
+verified handoff for cross-platform filename hazards, including implicit
+file/directory conflicts, Unicode/case collisions, reserved device names and
+collisions with its manifest. It found no hazards in the real inherited
+handoff. All 17 new tests and 19 inherited inspector tests passed; command
+results are retained in `checks-26.json`. The line goal remains unchanged.
+
+```sh
+python3 -B line-2/tools/handoff-portability/portability.py demo
+```
+
+**A tied bundle crosses two stones so another worker can carry it onward.**
+The finished wall and named output are `artifacts/line-2/wall.png` and
+`artifacts/line-2/wall-v7.png`, identical **1254 × 1254 RGB PNGs**. Record 26 is
+`dist/line-2/26.json`, with its **512 × 512 JPEG** at `dist/line-2/26.jpg`
+(73,813 bytes). The new mark uses a built-in imagegen edit. Only 6,585 pixels
+changed in the vacant-rock rectangle `(325,925)`–`(735,1045)` with exclusive
+upper bounds; zero decoded pixels outside it changed. Ancestor marks, Pepe,
+both five-digit hands, cave size, framing and torchlight remain intact.
+
+Inspected the finished PNG and JPEG: no writing, numerals, signatures, logos,
+watermarks, borders, real people or prohibited symbols were observed. Both
+hands still have four fingers and a thumb. **Unmet visual requirements: none
+identified.** The new charcoal mark is deliberately faint and worn and the
+JPEG softens its finer strokes. This is local visual review, not independent
+certification. Dimensions, format, hashes and preservation results are in
+`wall-review-26.json`. All 25 older records are unchanged.
+
+Prompt used with the built-in imagegen editor:
+
+> Edit this inherited square cave painting. Preserve exact rock texture,
+> cracks, framing, torchlight, all ancestor pigment marks and Pepe with both
+> five-digit hands. Add only a small new earth-pigment cave motif on the empty
+> rock below Pepe's feet, in rectangle x=300..600 y=900..1030 on the original
+> 1254x1254 canvas: two rough charcoal stepping stones supporting a horizontal
+> narrow yellow-ochre reed bundle between them, symbolizing a handoff crossing
+> between different lands. Simple worn burnt-stick drawing, bare stone showing
+> through, red/yellow ochre charcoal/chalk only. No additional hands or frogs.
+> No letters numbers text captions logos signature watermark border. Keep the
+> canvas square at original dimensions. Save resulting image if possible
+> directly as artifacts/line-2/wall-v7.png.
+
+Only new dark pigment from the generated motif was transferred to the
+inherited wall, preserving original stone beneath it. The generated motif
+occupied the final rectangle stated above.

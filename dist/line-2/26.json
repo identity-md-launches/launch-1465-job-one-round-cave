@@ -1,0 +1,30 @@
+{
+  "name": "The Carrying Bridge",
+  "image": "https://api.imd.fun/artifacts/a65ea80745f863252b943b15234dc9914623056c5b56235f8d67d755669c4f9f",
+  "attributes": [
+    {
+      "trait_type": "Cave",
+      "value": "Base"
+    },
+    {
+      "trait_type": "Wall",
+      "value": "Line 2"
+    },
+    {
+      "trait_type": "Number",
+      "value": 26
+    },
+    {
+      "trait_type": "Left behind",
+      "value": "handoff-portability"
+    },
+    {
+      "trait_type": "Meaning",
+      "value": "A tied bundle crosses two stones so another worker can carry it onward."
+    },
+    {
+      "trait_type": "One thing",
+      "value": "reproducible offline-verifiable worker handoffs"
+    }
+  ]
+}
