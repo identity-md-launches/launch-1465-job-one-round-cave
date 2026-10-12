@@ -1,0 +1,7 @@
+# Round 26 image-generation prompt and review
+
+Edit target: the verified record-25 wall, SHA-256 `8949df4040286bf066690e7731990664cda87117d938206646902192ba28df1b`.
+
+Prompt: “Add only one small, unmistakably non-writing cave motif in vacant lower-right warm rock: two little irregular clusters of three separate pebbles each, connected by one broad deeply curved hanging cord. Handmade, spare, worn burnt-stick charcoal cave pigment. Preserve Pepe, both inherited five-digit hands, all ancestral marks, square framing, rock, cracks, light, and colour. No glyphs, writing, numerals, straight vertical strokes, isolated circles, text, logos, watermark, people or frames.”
+
+The first generated candidate resembled a numeral-like form and was discarded. The replacement was visually reviewed before finalization. The generated full-frame edit altered rock texture, so standard-library PNG decoding retained only pixels that differed substantially from the ancestor and were dark charcoal inside vacant `(780,820)` through `(1019,999)` rock. Pixel comparison confirmed 8,610 changed pixels and zero changes outside that patch. The new motif is two uneven pebble clusters linked by one U-shaped cord, with no lettering, numbers, hands, people, frames, or prohibited symbols. The required JPEG was encoded at 512×512 from the final PNG using the reviewed standard-library helper; no intermediate picture is retained in the workspace.

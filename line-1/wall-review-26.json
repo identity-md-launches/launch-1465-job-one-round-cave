@@ -1,0 +1,35 @@
+{
+  "round": 26,
+  "dimensions": [1254, 1254],
+  "format": "PNG",
+  "color": "8-bit RGB",
+  "bytes": 3836166,
+  "sha256": "4b1e252d0d0695b594fee75ea2eea85da43f611b8f6ee62f769023b95c9cb76d",
+  "wall_paths": ["artifacts/line-1/wall-v7.png", "artifacts/line-1/wall.png"],
+  "inherited_wall_sha256": "8949df4040286bf066690e7731990664cda87117d938206646902192ba28df1b",
+  "patch": [780, 820, 240, 180],
+  "changed_pixels": 8610,
+  "changed_pixels_outside_patch": 0,
+  "thumbnail": {
+    "path": "dist/line-1/26.jpg",
+    "dimensions": [512, 512],
+    "format": "baseline JPEG",
+    "bytes": 71137
+  },
+  "visual_review": {
+    "pepe_preserved": true,
+    "digits_per_inherited_hand": 5,
+    "new_hands": 0,
+    "ancestor_marks_preserved": true,
+    "text_or_numbers_added": false,
+    "unmet_requirements": [],
+    "limits": "Visual review is subjective. The inherited photographic rock texture was preserved, and the new mark is limited to generated dark-pigment pixels in vacant rock."
+  },
+  "checks": {
+    "snapshot_compare_offline_tests": 11,
+    "snapshot_compare_demo": "passed",
+    "png_structure": "valid",
+    "jpeg_structure": "valid",
+    "preservation_pixel_comparison": "passed"
+  }
+}
